@@ -1,0 +1,256 @@
+import HeroSchematic from "@/components/HeroSchematic";
+
+export default function Home() {
+  return (
+    <>
+      {/* HERO */}
+      <section className="relative overflow-hidden bg-ink text-paper">
+        <div aria-hidden="true" className="absolute inset-0 bg-blueprint-grid bg-grid opacity-50"
+          style={{
+            maskImage: "linear-gradient(to bottom, black, transparent 92%)",
+            WebkitMaskImage:
+              "linear-gradient(to bottom, black, transparent 92%)",
+          }}
+        />
+        <div className="relative mx-auto grid max-w-shell grid-cols-1 items-center gap-14 px-8 py-14 sm:px-5 md:grid-cols-[1.1fr_0.9fr] md:py-20">
+          <div>
+            <p className="mb-4 text-[0.82rem] tracking-wide text-paper/60">
+              Software company · est. in India
+            </p>
+            <h1 className="max-w-[14ch] text-[clamp(2.1rem,4.2vw,3.3rem)]">
+              We build software the way a craftsperson builds a tool.
+            </h1>
+            <p className="mt-5 max-w-[46ch] text-[1.08rem] text-paper/80">
+              TechCraft Infotech designs and maintains focused software
+              products for industries that off-the-shelf tools tend to
+              overlook. Our first product, AcadTracker, runs the day-to-day
+              operations of education consultancies.
+            </p>
+            <div className="mt-8 flex flex-wrap gap-4">
+              <a href="#product" className="inline-flex items-center gap-2 border border-transparent bg-brass px-5 py-3 text-[0.95rem] font-medium text-ink no-underline hover:bg-[#c79549]">
+                See AcadTracker
+              </a>
+              <a href="#contact" className="inline-flex items-center gap-2 border border-paper/20 px-5 py-3 text-[0.95rem] font-medium text-paper no-underline hover:border-paper">
+                Get in touch
+              </a>
+            </div>
+          </div>
+          <HeroSchematic />
+        </div>
+      </section>
+
+      {/* ABOUT */}
+      <section className="border-b border-ink/15" id="about">
+        <div className="mx-auto max-w-shell px-8 py-20 sm:px-5">
+          <div className="mb-12 grid grid-cols-1 gap-3 md:grid-cols-[200px_1fr] md:gap-10">
+            <span className="h-fit border-l-2 border-brass pl-3.5 font-serif text-[0.95rem] text-slatesoft">
+              About Us
+            </span>
+            <h2 className="max-w-[22ch] text-[clamp(1.5rem,2.6vw,2.1rem)]">
+              A small company, built to stay close to what we ship.
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 gap-10 md:grid-cols-[200px_1fr]">
+            <dl className="grid gap-5">
+              <div>
+                <dt className="text-[0.78rem] text-slatesoft">Focus</dt>
+                <dd className="mt-0.5 font-serif text-[1rem] text-ink">
+                  Education-sector software
+                </dd>
+              </div>
+              <div>
+                <dt className="text-[0.78rem] text-slatesoft">
+                  Current product
+                </dt>
+                <dd className="mt-0.5 font-serif text-[1rem] text-ink">
+                  AcadTracker
+                </dd>
+              </div>
+              <div>
+                <dt className="text-[0.78rem] text-slatesoft">Model</dt>
+                <dd className="mt-0.5 font-serif text-[1rem] text-ink">
+                  Self-funded, product-led
+                </dd>
+              </div>
+            </dl>
+            <div>
+              <p className="max-w-[58ch] text-[1.08rem] text-ink2">
+                TechCraft Infotech started with a straightforward
+                observation: education consultancies that manage
+                study-abroad applicants were running their business on
+                spreadsheets and generic CRMs that were never built for the
+                way they actually work. We built AcadTracker to fix that,
+                and TechCraft Infotech exists to keep building tools like
+                it.
+              </p>
+              <p className="mt-4 max-w-[58ch] text-[1.08rem] text-ink2">
+                We stay deliberately small and hands-on. Every product we
+                ship is one we understand deeply, and one we intend to
+                support for years, not just launch.
+              </p>
+              <div className="mt-7 grid grid-cols-1 gap-4 sm:grid-cols-3">
+                <div className="border-t border-ink/15 pt-3.5">
+                  <dt className="font-serif text-[0.98rem]">
+                    Depth over breadth
+                  </dt>
+                  <dd className="mt-1.5 text-[0.93rem] text-slate">
+                    One product done thoroughly beats five done thinly.
+                  </dd>
+                </div>
+                <div className="border-t border-ink/15 pt-3.5">
+                  <dt className="font-serif text-[0.98rem]">
+                    Direct to the industry
+                  </dt>
+                  <dd className="mt-1.5 text-[0.93rem] text-slate">
+                    We work closely with the businesses using our software.
+                  </dd>
+                </div>
+                <div className="border-t border-ink/15 pt-3.5">
+                  <dt className="font-serif text-[0.98rem]">Built to last</dt>
+                  <dd className="mt-1.5 text-[0.93rem] text-slate">
+                    Long-term maintenance and support, not a quick exit.
+                  </dd>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* PRODUCT */}
+      <section className="border-b border-ink/15" id="product">
+        <div className="mx-auto max-w-shell px-8 py-20 sm:px-5">
+          <div className="mb-12 grid grid-cols-1 gap-3 md:grid-cols-[200px_1fr] md:gap-10">
+            <span className="h-fit border-l-2 border-brass pl-3.5 font-serif text-[0.95rem] text-slatesoft">
+              Product
+            </span>
+            <h2 className="max-w-[22ch] text-[clamp(1.5rem,2.6vw,2.1rem)]">
+              What we&apos;ve built so far.
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 gap-10 md:grid-cols-[200px_1fr]">
+            <div aria-hidden="true" className="hidden md:block" />
+            <div>
+              <div className="relative border border-ink/15 p-10">
+                <span className="absolute -left-px -top-px h-3.5 w-3.5 border-l border-t border-brass" />
+                <span className="absolute -bottom-px -right-px h-3.5 w-3.5 border-b border-r border-brass" />
+
+                <div className="mb-4 flex flex-wrap items-baseline justify-between gap-3">
+                  <span className="text-[1.4rem] font-serif">
+                    AcadTracker
+                  </span>
+                  <span className="border border-brass px-2.5 py-1 text-[0.78rem] text-brassdark">
+                    Live
+                  </span>
+                </div>
+                <p className="mb-7 text-[1.02rem] text-slate">
+                  A CRM built specifically for study abroad and overseas
+                  education consultancies.
+                </p>
+                <div className="grid grid-cols-1 gap-7 sm:grid-cols-2">
+                  <div>
+                    <h4 className="mb-2.5 text-[0.88rem] font-semibold font-sans text-slatesoft">
+                      What it handles
+                    </h4>
+                    <ul className="m-0 list-disc space-y-2 pl-5 text-[0.95rem] text-ink2">
+                      <li>Lead and applicant tracking, end to end</li>
+                      <li>Student records and document management</li>
+                      <li>Employee and branch-level access</li>
+                      <li>Payments and plan management</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="mb-2.5 text-[0.88rem] font-semibold font-sans text-slatesoft">
+                      Built for
+                    </h4>
+                    <ul className="m-0 list-disc space-y-2 pl-5 text-[0.95rem] text-ink2">
+                      <li>Study abroad consultancies</li>
+                      <li>Overseas education agencies</li>
+                      <li>Multi-branch consultancy networks</li>
+                      <li>Teams replacing spreadsheets or legacy CRMs</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="mt-8 flex flex-wrap gap-3.5">
+                  <a
+                    href="#contact"
+                    className="inline-flex items-center gap-2 bg-brass px-5 py-3 text-[0.95rem] font-medium text-ink no-underline hover:bg-[#c79549]"
+                  >
+                    Request a walkthrough
+                  </a>
+                </div>
+              </div>
+
+              <div className="mt-6 flex flex-wrap items-center justify-between gap-5 border border-dashed border-slatesoft px-10 py-8 text-slate">
+                <span>
+                  <strong className="font-serif font-semibold text-ink">
+                    Next product
+                  </strong>{" "}
+                  — in early planning, not yet named.
+                </span>
+                <a href="#contact" className="inline-flex items-center gap-2 border border-ink/15 px-5 py-3 text-[0.95rem] font-medium text-ink no-underline hover:border-ink">
+                  Tell us what you need
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CONTACT */}
+      <section id="contact">
+        <div className="mx-auto max-w-shell px-8 py-20 sm:px-5">
+          <div className="mb-12 grid grid-cols-1 gap-3 md:grid-cols-[200px_1fr] md:gap-10">
+            <span className="h-fit border-l-2 border-brass pl-3.5 font-serif text-[0.95rem] text-slatesoft">
+              Contact
+            </span>
+            <h2 className="max-w-[22ch] text-[clamp(1.5rem,2.6vw,2.1rem)]">
+              Talk to us about AcadTracker or a custom need.
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 gap-10 md:grid-cols-[200px_1fr_320px]">
+            <div aria-hidden="true" className="hidden md:block" />
+            <form>
+              <div className="mb-5">
+                <label htmlFor="name" className="mb-1.5 block text-[0.85rem] text-slate">
+                  Name
+                </label>
+                <input id="name" name="name" type="text" required className="w-full border border-ink/15 bg-transparent px-3.5 py-3 text-[0.98rem] text-graphite focus:border-brass"/>
+              </div>
+              <div className="mb-5">
+                <label htmlFor="email" className="mb-1.5 block text-[0.85rem] text-slate">
+                  Email
+                </label>
+                <input id="email" name="email" type="email" required className="w-full border border-ink/15 bg-transparent px-3.5 py-3 text-[0.98rem] text-graphite focus:border-brass" />
+              </div>
+              <div className="mb-5">
+                <label htmlFor="message" className="mb-1.5 block text-[0.85rem] text-slate">
+                  Message
+                </label>
+                <textarea id="message" name="message" rows={5} required className="w-full border border-ink/15 bg-transparent px-3.5 py-3 text-[0.98rem] text-graphite focus:border-brass"/>
+              </div>
+              <button type="submit" className="bg-brass px-5 py-3 text-[0.95rem] font-medium text-ink hover:bg-[#c79549]">
+                Send message
+              </button>
+            </form>
+            <div className="border-t border-ink/15 pt-6 md:border-l md:border-t-0 md:pl-8 md:pt-0">
+              <h4 className="mb-3 font-serif text-[1.05rem]">Direct</h4>
+              <p className="mb-1.5 text-[0.95rem] text-slate">
+                hello@techcraftinfotech.com
+              </p>
+              <p className="mb-1.5 text-[0.95rem] text-slate">
+                Mon–Fri, 10am–6pm IST
+                <br />
+                Sat, 10am-4pm IST
+              </p>
+              <h4 className="mb-3 mt-6 font-serif text-[1.05rem]">
+                Based in
+              </h4>
+              <p className="mb-1.5 text-[0.95rem] text-slate">India</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
