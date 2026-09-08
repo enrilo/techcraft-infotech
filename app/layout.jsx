@@ -9,11 +9,12 @@ const siteUrl =
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "TechCraft Infotech | Software company building AcadTracker",
+    default:
+      "TechCraft Infotech | Software products and custom web & mobile apps",
     template: "%s | TechCraft Infotech",
   },
   description:
-    "TechCraft Infotech is a software company building practical, well-crafted products for niche industries. Our first product, AcadTracker, is a CRM built for study abroad and overseas education consultancies.",
+    "TechCraft Infotech is a software company building its own products and custom web and mobile applications. Our product AcadTracker is a CRM for study abroad and domestic college-placement consultancies.",
   keywords: [
     "TechCraft Infotech",
     "TechCraft",
@@ -24,7 +25,11 @@ export const metadata = {
     "education CRM software",
     "student lead management software",
     "education consultancy management system",
+    "college placement consultancy software",
     "software company",
+    "custom software development",
+    "custom web application development",
+    "mobile app development",
     "SaaS product studio",
   ],
   authors: [{ name: "TechCraft Infotech" }],
@@ -37,24 +42,18 @@ export const metadata = {
     type: "website",
     url: siteUrl,
     siteName: "TechCraft Infotech",
-    title: "TechCraft Infotech | Software company building AcadTracker",
+    title:
+      "TechCraft Infotech | Software products and custom web & mobile apps",
     description:
-      "A software company building practical, well-crafted products for niche industries — starting with AcadTracker, a CRM for education consultancies.",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "TechCraft Infotech",
-      },
-    ],
+      "A software company building its own products and custom web and mobile applications — including AcadTracker, a CRM for education consultancies.",
+    locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "TechCraft Infotech | Software company building AcadTracker",
+    title:
+      "TechCraft Infotech | Software products and custom web & mobile apps",
     description:
-      "A software company building practical, well-crafted products for niche industries — starting with AcadTracker, a CRM for education consultancies.",
-    images: ["/og-image.png"],
+      "A software company building its own products and custom web and mobile applications — including AcadTracker, a CRM for education consultancies.",
   },
   robots: {
     index: true,
@@ -71,22 +70,73 @@ export const metadata = {
 
 const organizationJsonLd = {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "TechCraft Infotech",
-  url: siteUrl,
-  description:
-    "TechCraft Infotech is a software company building practical, well-crafted products for niche industries.",
-  brand: [
+  "@graph": [
     {
-      "@type": "SoftwareApplication",
-      name: "AcadTracker",
-      applicationCategory: "BusinessApplication",
+      "@type": "Organization",
+      "@id": `${siteUrl}/#organization`,
+      name: "TechCraft Infotech",
+      url: siteUrl,
+      email: "hello@techcraftinfotech.com",
+      foundingDate: "2026",
       description:
-        "CRM platform for education consultancies to manage leads, students, employees, payments, and documents.",
-      audience: {
-        "@type": "Audience",
-        audienceType: "Study abroad and overseas education consultancies",
+        "TechCraft Infotech is a software company building its own products and custom web and mobile applications.",
+      areaServed: [
+        { "@type": "Country", name: "India" },
+        { "@type": "Place", name: "Worldwide" },
+      ],
+      address: {
+        "@type": "PostalAddress",
+        addressCountry: "IN",
       },
+      contactPoint: {
+        "@type": "ContactPoint",
+        contactType: "sales",
+        email: "hello@techcraftinfotech.com",
+        availableLanguage: ["English"],
+      },
+      knowsAbout: [
+        "Custom software development",
+        "Web application development",
+        "Mobile application development",
+        "CRM software",
+        "Education consultancy software",
+        "API integration",
+      ],
+      makesOffer: [
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Custom web and mobile application development",
+            description:
+              "Design and development of custom web applications, Android and iOS mobile apps, dashboards, portals, APIs, and integrations, built around a client's own workflow.",
+          },
+        },
+      ],
+      brand: {
+        "@type": "SoftwareApplication",
+        name: "AcadTracker",
+        applicationCategory: "BusinessApplication",
+        operatingSystem: "Web",
+        url: "https://acadtracker.com",
+        description:
+          "CRM platform for study abroad and domestic college-placement consultancies to manage leads, students, applications, employees, payments, and documents.",
+        audience: {
+          "@type": "Audience",
+          audienceType:
+            "Study abroad, overseas education, and domestic college-placement consultancies",
+        },
+      },
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${siteUrl}/#website`,
+      url: siteUrl,
+      name: "TechCraft Infotech",
+      description:
+        "Software products and custom web and mobile application development.",
+      publisher: { "@id": `${siteUrl}/#organization` },
+      inLanguage: "en",
     },
   ],
 };

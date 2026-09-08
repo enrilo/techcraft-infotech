@@ -14,6 +14,11 @@ export default function Header() {
             </a>
           </li>
           <li>
+            <a href="/#services" className="border-b border-transparent pb-0.5 text-[0.94rem] text-slate no-underline hover:border-brass hover:text-ink">
+              What We Do
+            </a>
+          </li>
+          <li>
             <a href="/#product" className="border-b border-transparent pb-0.5 text-[0.94rem] text-slate no-underline hover:border-brass hover:text-ink">
               AcadTracker
             </a>
