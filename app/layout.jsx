@@ -65,7 +65,7 @@ export const metadata = {
     },
   },
   icons: {
-    icon: "/favicon.svg",
+    icon: "/techcraft-icon-regular.svg",
   },
 };
 
