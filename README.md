@@ -1,6 +1,6 @@
 # TechCraft Infotech — website
 
-Next.js 14 (App Router) + Tailwind CSS site for TechCraft Infotech, the
+Next.js 16 (App Router) + Tailwind CSS site for TechCraft Infotech, the
 parent company behind AcadTracker. Plain JavaScript — no TypeScript.
 
 ## Setup

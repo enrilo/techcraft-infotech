@@ -6,6 +6,12 @@ import Footer from "@/components/Footer";
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL || "https://www.techcraftinfotech.com";
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#152238",
+};
+
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
@@ -147,7 +153,6 @@ export default function RootLayout({ children }) {
       <head>
         <script
           type="application/ld+json"
-          // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(organizationJsonLd),
           }}

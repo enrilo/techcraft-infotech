@@ -30,7 +30,7 @@ export default function Home() {
               "linear-gradient(to bottom, black, transparent 92%)",
           }}
         />
-        <div className="relative mx-auto grid max-w-shell grid-cols-1 items-center gap-14 px-8 py-14 sm:px-5 md:grid-cols-[1.1fr_0.9fr] md:py-20">
+        <div className="relative mx-auto grid max-w-shell grid-cols-1 items-center gap-10 px-5 py-12 sm:px-8 sm:py-14 md:grid-cols-[1.1fr_0.9fr] md:gap-14 md:py-20">
           <div>
             <p className="mb-4 text-[0.82rem] tracking-wide text-paper/60">
               Software company · est. in India
@@ -84,7 +84,7 @@ export default function Home() {
 
       {/* ABOUT */}
       <section className="border-b border-ink/15" id="about">
-        <div className="mx-auto max-w-shell px-8 py-20 sm:px-5">
+        <div className="mx-auto max-w-shell px-5 py-16 sm:px-8 sm:py-20">
           <div className="mb-12 grid grid-cols-1 gap-3 md:grid-cols-[200px_1fr] md:gap-10">
             <span className="h-fit border-l-2 border-brass pl-3.5 font-serif text-[0.95rem] text-slatesoft">
               About Us
@@ -162,7 +162,7 @@ export default function Home() {
 
       {/* SERVICES */}
       <section className="border-b border-ink/15" id="services">
-        <div className="mx-auto max-w-shell px-8 py-20 sm:px-5">
+        <div className="mx-auto max-w-shell px-5 py-16 sm:px-8 sm:py-20">
           <div className="mb-12 grid grid-cols-1 gap-3 md:grid-cols-[200px_1fr] md:gap-10">
             <span className="h-fit border-l-2 border-brass pl-3.5 font-serif text-[0.95rem] text-slatesoft">
               What we do
@@ -174,7 +174,7 @@ export default function Home() {
           <div className="grid grid-cols-1 gap-10 md:grid-cols-[200px_1fr]">
             <div aria-hidden="true" className="hidden md:block" />
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-              <div className="relative border border-ink/15 p-8">
+              <div className="relative border border-ink/15 p-6 sm:p-8">
                 <span className="absolute -left-px -top-px h-3.5 w-3.5 border-l border-t border-brass" />
                 <h3 className="font-serif text-[1.15rem] text-ink">
                   Software products
@@ -192,7 +192,7 @@ export default function Home() {
                   More about AcadTracker →
                 </a>
               </div>
-              <div className="relative border border-ink/15 p-8">
+              <div className="relative border border-ink/15 p-6 sm:p-8">
                 <span className="absolute -left-px -top-px h-3.5 w-3.5 border-l border-t border-brass" />
                 <h3 className="font-serif text-[1.15rem] text-ink">
                   Custom web &amp; mobile apps
@@ -253,7 +253,7 @@ export default function Home() {
 
       {/* HOW WE WORK */}
       <section className="border-b border-ink/15" id="process">
-        <div className="mx-auto max-w-shell px-8 py-20 sm:px-5">
+        <div className="mx-auto max-w-shell px-5 py-16 sm:px-8 sm:py-20">
           <div className="mb-12 grid grid-cols-1 gap-3 md:grid-cols-[200px_1fr] md:gap-10">
             <span className="h-fit border-l-2 border-brass pl-3.5 font-serif text-[0.95rem] text-slatesoft">
               How we work
@@ -308,7 +308,7 @@ export default function Home() {
 
       {/* PRODUCT */}
       <section className="border-b border-ink/15" id="product">
-        <div className="mx-auto max-w-shell px-8 py-20 sm:px-5">
+        <div className="mx-auto max-w-shell px-5 py-16 sm:px-8 sm:py-20">
           <div className="mb-12 grid grid-cols-1 gap-3 md:grid-cols-[200px_1fr] md:gap-10">
             <span className="h-fit border-l-2 border-brass pl-3.5 font-serif text-[0.95rem] text-slatesoft">
               Our product
@@ -328,7 +328,7 @@ export default function Home() {
                   <Image src={acadtrackerLogo} alt="AcadTracker — empowering consultancies, simplifying admissions" priority={false} sizes="(max-width: 768px) 100vw, 700px" className="h-auto w-full object-contain" />
                 </a>
 
-                <div className="p-10">
+                <div className="p-6 sm:p-10">
                 <div className="mb-4 flex flex-wrap items-baseline justify-between gap-3">
                   <span className="text-[1.4rem] font-serif">
                     AcadTracker
@@ -389,7 +389,7 @@ export default function Home() {
 
       {/* CONTACT */}
       <section id="contact">
-        <div className="mx-auto max-w-shell px-8 py-20 sm:px-5">
+        <div className="mx-auto max-w-shell px-5 py-16 sm:px-8 sm:py-20">
           <div className="mb-12 grid grid-cols-1 gap-3 md:grid-cols-[200px_1fr] md:gap-10">
             <span className="h-fit border-l-2 border-brass pl-3.5 font-serif text-[0.95rem] text-slatesoft">
               Contact Us
@@ -405,19 +405,19 @@ export default function Home() {
                 <label htmlFor="name" className="mb-1.5 block text-[0.85rem] text-slate">
                   Name
                 </label>
-                <input id="name" name="name" type="text" required className="w-full border border-ink/15 bg-transparent px-3.5 py-3 text-[0.98rem] text-graphite focus:border-brass"/>
+                <input id="name" name="name" type="text" required className="w-full border border-ink/15 bg-transparent px-3.5 py-3 text-base text-graphite focus:border-brass"/>
               </div>
               <div className="mb-5">
                 <label htmlFor="email" className="mb-1.5 block text-[0.85rem] text-slate">
                   Email
                 </label>
-                <input id="email" name="email" type="email" required className="w-full border border-ink/15 bg-transparent px-3.5 py-3 text-[0.98rem] text-graphite focus:border-brass" />
+                <input id="email" name="email" type="email" required className="w-full border border-ink/15 bg-transparent px-3.5 py-3 text-base text-graphite focus:border-brass" />
               </div>
               <div className="mb-5">
                 <label htmlFor="message" className="mb-1.5 block text-[0.85rem] text-slate">
                   Message
                 </label>
-                <textarea id="message" name="message" rows={5} required className="w-full border border-ink/15 bg-transparent px-3.5 py-3 text-[0.98rem] text-graphite focus:border-brass"/>
+                <textarea id="message" name="message" rows={5} required className="w-full border border-ink/15 bg-transparent px-3.5 py-3 text-base text-graphite focus:border-brass"/>
               </div>
               <button type="submit" className="bg-brass px-5 py-3 text-[0.95rem] font-medium text-ink hover:bg-[#c79549]">
                 Send message

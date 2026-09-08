@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="bg-ink text-paper">
-      <div className="mx-auto flex max-w-shell flex-wrap items-center justify-between gap-4 px-8 py-8 text-[0.85rem] opacity-75 sm:px-5">
+      <div className="mx-auto flex max-w-shell flex-wrap items-center justify-between gap-4 px-5 py-8 text-[0.85rem] opacity-75 sm:px-8">
         <span>
           © {new Date().getFullYear()} TechCraft Infotech. All rights
           reserved.
