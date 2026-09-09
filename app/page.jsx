@@ -1,18 +1,15 @@
 import Image from "next/image";
 import HeroSchematic from "@/components/HeroSchematic";
+import ContactForm from "@/components/ContactForm";
 import acadtrackerLogo from "./assets/images/acadtracker/with-tagline/acadtrack-with-tagline-1920x1080.png";
 
 export const metadata = {
-  title:
-    "TechCraft Infotech | Software products and custom web & mobile app development",
-  description:
-    "TechCraft Infotech is an India-based software company building its own products and custom web and mobile applications. Our product AcadTracker is a CRM for study abroad and domestic college-placement consultancies.",
+  title: "TechCraft Infotech | Software products and custom web & mobile app development",
+  description: "TechCraft Infotech is an India-based software company building its own products and custom web and mobile applications. Our product AcadTracker is a CRM for study abroad and domestic college-placement consultancies.",
   alternates: { canonical: "/" },
   openGraph: {
-    title:
-      "TechCraft Infotech | Software products and custom web & mobile app development",
-    description:
-      "India-based software company building its own products and custom web and mobile applications, including AcadTracker, a CRM for education consultancies.",
+    title: "TechCraft Infotech | Software products and custom web & mobile app development",
+    description: "India-based software company building its own products and custom web and mobile applications, including AcadTracker, a CRM for education consultancies.",
     url: "/",
     type: "website",
   },
@@ -340,7 +337,7 @@ export default function Home() {
                 <p className="mb-2 max-w-[62ch] text-[1.02rem] text-slate">
                   A CRM built for study abroad consultancies and for
                   domestic consultancies guiding students through college
-                  placement in India; one place to run enquiries,
+                  placement in your country; one place to run enquiries,
                   applications, documents, and payments across every
                   branch.
                 </p>
@@ -400,29 +397,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 gap-10 md:grid-cols-[200px_1fr_320px]">
             <div aria-hidden="true" className="hidden md:block" />
-            <form>
-              <div className="mb-5">
-                <label htmlFor="name" className="mb-1.5 block text-[0.85rem] text-slate">
-                  Name
-                </label>
-                <input id="name" name="name" type="text" required className="w-full border border-ink/15 bg-transparent px-3.5 py-3 text-base text-graphite focus:border-brass"/>
-              </div>
-              <div className="mb-5">
-                <label htmlFor="email" className="mb-1.5 block text-[0.85rem] text-slate">
-                  Email
-                </label>
-                <input id="email" name="email" type="email" required className="w-full border border-ink/15 bg-transparent px-3.5 py-3 text-base text-graphite focus:border-brass" />
-              </div>
-              <div className="mb-5">
-                <label htmlFor="message" className="mb-1.5 block text-[0.85rem] text-slate">
-                  Message
-                </label>
-                <textarea id="message" name="message" rows={5} required className="w-full border border-ink/15 bg-transparent px-3.5 py-3 text-base text-graphite focus:border-brass"/>
-              </div>
-              <button type="submit" className="bg-brass px-5 py-3 text-[0.95rem] font-medium text-ink hover:bg-[#c79549]">
-                Send message
-              </button>
-            </form>
+            <ContactForm />
             <div className="border-t border-ink/15 pt-6 md:border-l md:border-t-0 md:pl-8 md:pt-0">
               <h4 className="mb-3 font-serif text-[1.05rem]">Direct</h4>
               <p className="mb-1.5 text-[0.95rem] text-slate">
