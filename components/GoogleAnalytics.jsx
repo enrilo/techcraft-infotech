@@ -1,19 +1,21 @@
 import Script from "next/script";
 
 /**
- * Loads Google Analytics 4 (gtag.js) site-wide.
+ * Loads Google Analytics 4 (gtag.js) site-wide, gated by Consent Mode v2.
  *
  * Reads the Measurement ID from NEXT_PUBLIC_GA_MEASUREMENT_ID so the ID is
- * never hardcoded. Set it in .env.local (see .env.local.example). Renders
- * nothing if the env var is unset, so local dev doesn't send test traffic
- * to a real property.
+ * never hardcoded. Set it in .env.local (see .env.local.example).
+ *
+ * Consent Mode defaults (all denied) are set by an inline script in the root
+ * layout <head> so they run before this tag; the CookieConsent banner then
+ * calls `gtag('consent', 'update', ...)` on the visitor's choice. The GA tag
+ * only loads when a real Measurement ID is set, so local dev sends no traffic.
  */
 export default function GoogleAnalytics() {
   const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+  const enabled = gaId && gaId !== "G-XXXXXXXXXX";
 
-  if (!gaId || gaId === "G-XXXXXXXXXX") {
-    return null;
-  }
+  if (!enabled) return null;
 
   return (
     <>
@@ -23,8 +25,6 @@ export default function GoogleAnalytics() {
       />
       <Script id="ga-init" strategy="afterInteractive">
         {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', '${gaId}', { anonymize_ip: true });
         `}
