@@ -4,11 +4,11 @@ import ContactForm from "@/components/ContactForm";
 import acadtrackerLogo from "./assets/images/acadtracker/with-tagline/acadtrack-with-tagline-1920x1080.png";
 
 export const metadata = {
-  title: "Enrilo Tech | Software products and custom web & mobile app development",
-  description: "Enrilo Tech is an India-based software company building its own products and custom web and mobile applications. Our product AcadTracker is a CRM for study abroad and domestic college-placement consultancies.",
+  title: "Enrilo Technologies | Software products and custom web & mobile app development",
+  description: "Enrilo Technologies is an India-based software company building its own products and custom web and mobile applications. Our product AcadTracker is a CRM for study abroad and domestic college-placement consultancies.",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Enrilo Tech | Software products and custom web & mobile app development",
+    title: "Enrilo Technologies | Software products and custom web & mobile app development",
     description: "India-based software company building its own products and custom web and mobile applications, including AcadTracker, a CRM for education consultancies.",
     url: "/",
     type: "website",
@@ -36,7 +36,7 @@ export default function Home() {
               We build software the way a craftsperson builds a tool.
             </h1>
             <p className="mt-5 max-w-[48ch] text-[1.08rem] text-paper/80">
-              Enrilo Tech builds its own software products and
+              Enrilo Technologies builds its own software products and
               designs custom web and mobile applications for businesses
               that need something built around the way they actually work.
               AcadTracker, our CRM for education consultancies, is where we
@@ -115,7 +115,7 @@ export default function Home() {
             </dl>
             <div>
               <p className="max-w-[58ch] text-[1.08rem] text-ink2">
-                Enrilo Tech started by building AcadTracker, a CRM
+                Enrilo Technologies started by building AcadTracker, a CRM
                 for education consultancies that were running their
                 business on spreadsheets and generic tools never meant for
                 the way they work. That work taught us how to build
@@ -401,7 +401,7 @@ export default function Home() {
             <div className="border-t border-ink/15 pt-6 md:border-l md:border-t-0 md:pl-8 md:pt-0">
               <h4 className="mb-3 font-serif text-[1.05rem]">Direct</h4>
               <p className="mb-1.5 text-[0.95rem] text-slate">
-                hello@enrilotech.com
+                hello@enrilotechnologies.com
               </p>
               <p className="mb-1.5 text-[0.95rem] text-slate">
                 Mon–Fri, 10am–6pm IST

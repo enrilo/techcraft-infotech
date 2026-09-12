@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Terms of Service",
   description:
-    "Terms governing the use of the enrilotech.com website.",
+    "Terms governing the use of the enrilotechnologies.com website.",
   alternates: { canonical: "/terms" },
 };
 
@@ -17,7 +17,7 @@ export default function TermsPage() {
 
       <p className="text-[1rem] text-ink2">
         These Terms of Service (&quot;Terms&quot;) govern your access to and use
-        of this website, enrilotech.com, operated by Enrilo Tech
+        of this website, enrilotechnologies.com, operated by Enrilo Technologies
         (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;). By using this
         website, you agree to these Terms. If you do not agree, please do not
         use the site.
@@ -51,7 +51,7 @@ export default function TermsPage() {
       </h2>
       <p className="text-[1rem] text-ink2">
         The content, branding, text, graphics, and design of this website
-        belong to Enrilo Tech or its licensors and are protected by
+        belong to Enrilo Technologies or its licensors and are protected by
         applicable laws. You may not copy, reproduce, republish, or create
         derivative works from any part of the site. {/* without our prior written
         permission, except for personal, non-commercial reference. */}
@@ -83,7 +83,7 @@ export default function TermsPage() {
         Limitation of liability
       </h2>
       <p className="text-[1rem] text-ink2">
-        To the maximum extent permitted by law, Enrilo Tech will not be
+        To the maximum extent permitted by law, Enrilo Technologies will not be
         liable for any indirect, incidental, special, consequential, or
         punitive damages, or for any loss of profits, revenue, data, or
         goodwill, arising out of or relating to your use of (or inability to
@@ -116,10 +116,10 @@ export default function TermsPage() {
       <p className="text-[1rem] text-ink2">
         Questions about these Terms:{" "}
         <a
-          href="mailto:hello@enrilotech.com"
+          href="mailto:hello@enrilotechnologies.com"
           className="text-brass underline"
         >
-          hello@enrilotech.com
+          hello@enrilotechnologies.com
         </a>
       </p>
     </div>

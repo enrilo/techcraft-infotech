@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://www.enrilotech.com";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://www.enrilotechnologies.com";
 
 export const viewport = {
   width: "device-width",
@@ -17,13 +17,13 @@ export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default:
-      "Enrilo Tech | Software products and custom web & mobile apps",
-    template: "%s | Enrilo Tech",
+      "Enrilo Technologies | Software products and custom web & mobile apps",
+    template: "%s | Enrilo Technologies",
   },
   description:
-    "Enrilo Tech is a software company building its own products and custom web and mobile applications. Our product AcadTracker is a CRM for study abroad and domestic college-placement consultancies.",
+    "Enrilo Technologies is a software company building its own products and custom web and mobile applications. Our product AcadTracker is a CRM for study abroad and domestic college-placement consultancies.",
   keywords: [
-    "Enrilo Tech",
+    "Enrilo Technologies",
     "AcadTracker",
     "education consultancy software",
     "study abroad CRM",
@@ -38,18 +38,18 @@ export const metadata = {
     "mobile app development",
     "SaaS product studio",
   ],
-  authors: [{ name: "Enrilo Tech" }],
-  creator: "Enrilo Tech",
-  publisher: "Enrilo Tech",
+  authors: [{ name: "Enrilo Technologies" }],
+  creator: "Enrilo Technologies",
+  publisher: "Enrilo Technologies",
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     url: siteUrl,
-    siteName: "Enrilo Tech",
+    siteName: "Enrilo Technologies",
     title:
-      "Enrilo Tech | Software products and custom web & mobile apps",
+      "Enrilo Technologies | Software products and custom web & mobile apps",
     description:
       "A software company building its own products and custom web and mobile applications — including AcadTracker, a CRM for education consultancies.",
     locale: "en_US",
@@ -57,7 +57,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Enrilo Tech | Software products and custom web & mobile apps",
+      "Enrilo Technologies | Software products and custom web & mobile apps",
     description:
       "A software company building its own products and custom web and mobile applications — including AcadTracker, a CRM for education consultancies.",
   },
@@ -80,12 +80,12 @@ const organizationJsonLd = {
     {
       "@type": "Organization",
       "@id": `${siteUrl}/#organization`,
-      name: "Enrilo Tech",
+      name: "Enrilo Technologies",
       url: siteUrl,
-      email: "hello@enrilotech.com",
+      email: "hello@enrilotechnologies.com",
       foundingDate: "2026",
       description:
-        "Enrilo Tech is a software company building its own products and custom web and mobile applications.",
+        "Enrilo Technologies is a software company building its own products and custom web and mobile applications.",
       areaServed: [
         { "@type": "Country", name: "India" },
         { "@type": "Place", name: "Worldwide" },
@@ -97,7 +97,7 @@ const organizationJsonLd = {
       contactPoint: {
         "@type": "ContactPoint",
         contactType: "sales",
-        email: "hello@enrilotech.com",
+        email: "hello@enrilotechnologies.com",
         availableLanguage: ["English"],
       },
       knowsAbout: [
@@ -138,7 +138,7 @@ const organizationJsonLd = {
       "@type": "WebSite",
       "@id": `${siteUrl}/#website`,
       url: siteUrl,
-      name: "Enrilo Tech",
+      name: "Enrilo Technologies",
       description:
         "Software products and custom web and mobile application development.",
       publisher: { "@id": `${siteUrl}/#organization` },
