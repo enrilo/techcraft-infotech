@@ -17,7 +17,7 @@ export default function Header() {
     <header className="sticky top-0 z-30 border-b border-ink/15 bg-paper">
       <div className="mx-auto flex h-[64px] max-w-shell items-center justify-between px-5 sm:h-[72px] sm:px-8">
         <Link href="/" onClick={() => setOpen(false)} className="flex items-baseline font-serif text-[1rem] gap-1 font-semibold tracking-tight no-underline sm:text-[1.05rem]">
-          TechCraft<span className="text-brassdark">Infotech</span>
+          Enrilo<span className="text-brassdark">Tech</span>
         </Link>
 
         {/* desktop nav */}

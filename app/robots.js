@@ -1,5 +1,5 @@
 const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://www.techcraftinfotech.com";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://www.enrilotech.com";
 
 export default function robots() {
   return {

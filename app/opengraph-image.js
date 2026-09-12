@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const alt =
-  "TechCraft Infotech — software products and custom web & mobile apps";
+  "Enrilo Tech — software products and custom web & mobile apps";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -22,8 +22,8 @@ export default function OpengraphImage() {
         }}
       >
         <div style={{ display: "flex", fontSize: 30, letterSpacing: 1 }}>
-          <span style={{ color: "#edefea" }}>TechCraft</span>
-          <span style={{ color: "#c79549", marginLeft: 10 }}>Infotech</span>
+          <span style={{ color: "#edefea" }}>Enrilo</span>
+          <span style={{ color: "#c79549", marginLeft: 10 }}>Tech</span>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
           <div style={{ fontSize: 62, lineHeight: 1.15, maxWidth: 900 }}>
@@ -48,7 +48,7 @@ export default function OpengraphImage() {
             fontFamily: "Helvetica, Arial, sans-serif",
           }}
         >
-          techcraftinfotech.com
+          enrilotech.com
         </div>
       </div>
     ),

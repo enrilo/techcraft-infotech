@@ -57,7 +57,7 @@ export default function ContactForm() {
       <div className="border border-ink/15 p-6 sm:p-8">
         <h3 className="font-serif text-[1.15rem] text-ink">Thank you</h3>
         <p className="mt-2 max-w-[52ch] text-[0.96rem] text-ink2">
-          We&apos;ve received your message. The TechCraft Infotech team will get
+          We&apos;ve received your message. The Enrilo Tech team will get
           back to you soon.
         </p>
       </div>
@@ -75,7 +75,7 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={onSubmit}>
-      <TextField name="name" id="name" label="Your Name" variant="outlined" fullWidth required sx={fieldSx} />
+      <TextField name="full_name" id="full_name" label="Your Name" variant="outlined" fullWidth required sx={fieldSx} />
 
       <TextField name="email" id="email" type="email" label="Email ID" variant="outlined" fullWidth required sx={fieldSx} />
 

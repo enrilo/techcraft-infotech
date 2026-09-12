@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Privacy Policy",
   description:
-    "How TechCraft Infotech collects, uses, and protects data through the techcraftinfotech.com website.",
+    "How Enrilo Tech collects, uses, and protects data through the enrilotech.com website.",
   alternates: { canonical: "/privacy" },
 };
 
@@ -16,9 +16,9 @@ export default function PrivacyPage() {
       </p>
 
       <p className="text-[1rem] text-ink2">
-        This Privacy Policy explains how TechCraft Infotech (&quot;we&quot;,
+        This Privacy Policy explains how Enrilo Tech (&quot;we&quot;,
         &quot;us&quot;, &quot;our&quot;) collects, uses, shares, and protects
-        information when you visit this website, techcraftinfotech.com. It also
+        information when you visit this website, enrilotech.com. It also
         describes the choices you have and how to exercise your rights.
       </p>
       <p className="mt-4 text-[1rem] text-ink2">
@@ -164,10 +164,10 @@ export default function PrivacyPage() {
         certain processing, and to withdraw consent at any time. To exercise
         any of these, email us at{" "}
         <a
-          href="mailto:hello@techcraftinfotech.com"
+          href="mailto:hello@enrilotech.com"
           className="text-brass underline"
         >
-          hello@techcraftinfotech.com
+          hello@enrilotech.com
         </a>
         . We will respond within the time required by applicable law. You also
         have the right to lodge a complaint with your local data protection
@@ -198,10 +198,10 @@ export default function PrivacyPage() {
       <p className="text-[1rem] text-ink2">
         Questions about this policy or your data:{" "}
         <a
-          href="mailto:hello@techcraftinfotech.com"
+          href="mailto:hello@enrilotech.com"
           className="text-brass underline"
         >
-          hello@techcraftinfotech.com
+          hello@enrilotech.com
         </a>
       </p>
     </div>

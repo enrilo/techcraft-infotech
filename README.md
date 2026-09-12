@@ -1,6 +1,6 @@
-# TechCraft Infotech — website
+# Enrilo Tech — website
 
-Next.js 16 (App Router) + Tailwind CSS site for TechCraft Infotech, the
+Next.js 16 (App Router) + Tailwind CSS site for Enrilo Tech, the
 parent company behind AcadTracker. Plain JavaScript — no TypeScript.
 
 ## Setup
@@ -19,7 +19,7 @@ npm run dev
 - **SEO:** per-page `<title>`/description via the Metadata API, a `keywords`
   list in `app/layout.tsx`, Open Graph + Twitter card tags, a canonical URL,
   and an Organization + SoftwareApplication JSON-LD block describing
-  TechCraft Infotech and AcadTracker
+  Enrilo Tech and AcadTracker
 - **Google Analytics 4:** `components/GoogleAnalytics.tsx` loads gtag.js
   site-wide, driven entirely by `NEXT_PUBLIC_GA_MEASUREMENT_ID` — set it in
   `.env.local` (never hardcode the ID in code)
@@ -32,7 +32,7 @@ npm run dev
 
 ## Before you publish
 
-- Replace `hello@techcraftinfotech.com`, the physical/registration details,
+- Replace `hello@enrilotech.com`, the physical/registration details,
   and the `[insert date]` placeholders in `/privacy` and `/terms` — those two
   pages are structural starting points, not reviewed legal text
 - Add a real `public/og-image.png` (1200×630) for social share previews —
