@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex items-center gap-3 opacity-75">
           <img src="/enrilo-icon-transparent.svg" alt="Enrilo Technologies" className="h-6 w-6 object-contain" />
           <span>
-            © {new Date().getFullYear()} Enrilo Technologies. All rights
+            © {new Date().getFullYear()} Enrilo Technologies LLP. All rights
             reserved.
           </span>
         </div>
