@@ -82,10 +82,9 @@ const organizationJsonLd = {
       "@id": `${siteUrl}/#organization`,
       name: "Enrilo Technologies",
       url: siteUrl,
-      email: "hello@enrilotechnologies.com",
+      email: "contactus@enrilotechnologies.com",
       foundingDate: "2026",
-      description:
-        "Enrilo Technologies is a software company building its own products and custom web and mobile applications.",
+      description: "Enrilo Technologies is a software company building its own products and custom web and mobile applications.",
       areaServed: [
         { "@type": "Country", name: "India" },
         { "@type": "Place", name: "Worldwide" },
@@ -97,7 +96,7 @@ const organizationJsonLd = {
       contactPoint: {
         "@type": "ContactPoint",
         contactType: "sales",
-        email: "hello@enrilotechnologies.com",
+        email: "contactus@enrilotechnologies.com",
         availableLanguage: ["English"],
       },
       knowsAbout: [

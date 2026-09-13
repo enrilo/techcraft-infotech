@@ -164,10 +164,10 @@ export default function PrivacyPage() {
         certain processing, and to withdraw consent at any time. To exercise
         any of these, email us at{" "}
         <a
-          href="mailto:hello@enrilotechnologies.com"
+          href="mailto:contactus@enrilotechnologies.com"
           className="text-brass underline"
         >
-          hello@enrilotechnologies.com
+          contactus@enrilotechnologies.com
         </a>
         . We will respond within the time required by applicable law. You also
         have the right to lodge a complaint with your local data protection
@@ -198,10 +198,10 @@ export default function PrivacyPage() {
       <p className="text-[1rem] text-ink2">
         Questions about this policy or your data:{" "}
         <a
-          href="mailto:hello@enrilotechnologies.com"
+          href="mailto:contactus@enrilotechnologies.com"
           className="text-brass underline"
         >
-          hello@enrilotechnologies.com
+          contactus@enrilotechnologies.com
         </a>
       </p>
     </div>

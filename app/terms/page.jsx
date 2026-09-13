@@ -116,10 +116,10 @@ export default function TermsPage() {
       <p className="text-[1rem] text-ink2">
         Questions about these Terms:{" "}
         <a
-          href="mailto:hello@enrilotechnologies.com"
+          href="mailto:contactus@enrilotechnologies.com"
           className="text-brass underline"
         >
-          hello@enrilotechnologies.com
+          contactus@enrilotechnologies.com
         </a>
       </p>
     </div>

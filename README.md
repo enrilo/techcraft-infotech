@@ -32,7 +32,7 @@ npm run dev
 
 ## Before you publish
 
-- Replace `hello@enrilotechnologies.com`, the physical/registration details,
+- Replace `contactus@enrilotechnologies.com`, the physical/registration details,
   and the `[insert date]` placeholders in `/privacy` and `/terms` — those two
   pages are structural starting points, not reviewed legal text
 - Add a real `public/og-image.png` (1200×630) for social share previews —

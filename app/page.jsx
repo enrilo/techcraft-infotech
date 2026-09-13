@@ -401,7 +401,7 @@ export default function Home() {
             <div className="border-t border-ink/15 pt-6 md:border-l md:border-t-0 md:pl-8 md:pt-0">
               <h4 className="mb-3 font-serif text-[1.05rem]">Direct</h4>
               <p className="mb-1.5 text-[0.95rem] text-slate">
-                hello@enrilotechnologies.com
+                contactus@enrilotechnologies.com
               </p>
               <p className="mb-1.5 text-[0.95rem] text-slate">
                 Mon–Fri, 10am–6pm IST
