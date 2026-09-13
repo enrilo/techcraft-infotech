@@ -87,7 +87,8 @@ export default function Home() {
               About Us
             </span>
             <h2 className="max-w-[24ch] text-[clamp(1.5rem,2.6vw,2.1rem)]">
-              A small company, built to stay close to what we ship.
+              We build every project with the craft and care we'd want
+              for our own.
             </h2>
           </div>
           <div className="grid grid-cols-1 gap-10 md:grid-cols-[200px_1fr]">
@@ -115,17 +116,18 @@ export default function Home() {
             </dl>
             <div>
               <p className="max-w-[58ch] text-[1.08rem] text-ink2">
-                Enrilo Technologies started by building AcadTracker, a CRM
-                for education consultancies that were running their
-                business on spreadsheets and generic tools never meant for
-                the way they work. That work taught us how to build
-                software that fits a business exactly — and we now do the
-                same for clients as custom web and mobile applications.
+                We started by building AcadTracker for study-abroad and
+                college-placement consultancies running their business on
+                spreadsheets and tools never built for how they work.
+                Fitting the software to the business, not the other way
+                around, is still how we work today — whether what we're
+                building is our own product or something custom for you.
               </p>
               <p className="mt-4 max-w-[58ch] text-[1.08rem] text-ink2">
-                We stay deliberately small and hands-on. Whether it is our
-                own product or your project, the same team designs it,
-                builds it, and supports it for the long run.
+                You work directly with the people writing the code, not a
+                layer of account managers. The team that scopes a project
+                is the same one that designs it, builds it, and supports
+                it long after launch.
               </p>
               <div className="mt-7 grid grid-cols-1 gap-4 sm:grid-cols-3">
                 <div className="border-t border-ink/15 pt-3.5">
@@ -133,8 +135,8 @@ export default function Home() {
                     Built around your work
                   </dt>
                   <dd className="mt-1.5 text-[0.93rem] text-slate">
-                    Software shaped to your process, not the other way
-                    around.
+                    Software shaped to your process, not a template you
+                    have to adapt to.
                   </dd>
                 </div>
                 <div className="border-t border-ink/15 pt-3.5">
@@ -142,13 +144,14 @@ export default function Home() {
                     One team, start to finish
                   </dt>
                   <dd className="mt-1.5 text-[0.93rem] text-slate">
-                    Design, build, and support without handoffs.
+                    The people who design it are the people who build and
+                    support it.
                   </dd>
                 </div>
                 <div className="border-t border-ink/15 pt-3.5">
                   <dt className="font-serif text-[0.98rem]">Built to last</dt>
                   <dd className="mt-1.5 text-[0.93rem] text-slate">
-                    Long-term maintenance and support, not a quick exit.
+                    We think in years of upkeep, not a quick exit.
                   </dd>
                 </div>
               </div>
