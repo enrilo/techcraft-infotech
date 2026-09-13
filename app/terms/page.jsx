@@ -7,15 +7,16 @@ export const metadata = {
 
 export default function TermsPage() {
   return (
-    <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-24">
-      <h1 className="mb-2 text-[2rem]">Terms of Service</h1>
+    <div className="mx-auto max-w-4xl px-5 py-16 sm:px-8 sm:py-24">
+      <h1 className="mb-2 text-[clamp(1.9rem,3.4vw,2.4rem)]">Terms of Service</h1>
       <p className="mb-10 text-md font-semibold text-slate">
         Effective From: 8 September, 2026.
         <br />
         Last Updated On: 8 September, 2026.
       </p>
 
-      <p className="text-[1rem] text-ink2">
+      <div className="rounded-3xl border border-ink/10 bg-white p-6 shadow-sm sm:p-10">
+      <p className="text-[1.08rem] text-ink2">
         These Terms of Service (&quot;Terms&quot;) govern your access to and use
         of this website, enrilotechnologies.com, operated by Enrilo Technologies
         (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;). By using this
@@ -23,10 +24,10 @@ export default function TermsPage() {
         use the site.
       </p>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         Use of this site
       </h2>
-      <p className="text-[1rem] text-ink2">
+      <p className="text-[1.08rem] text-ink2">
         You may browse this website and use the contact form to reach us for
         legitimate business purposes. You agree not to misuse the site,
         including by submitting unlawful, harmful, misleading, or abusive
@@ -35,10 +36,10 @@ export default function TermsPage() {
         permission.
       </p>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         AcadTracker
       </h2>
-      <p className="text-[1rem] text-ink2">
+      <p className="text-[1.08rem] text-ink2">
         This website describes our product, AcadTracker, but does not itself
         provide it. Use of AcadTracker is governed by AcadTracker&rsquo;s own
         Terms of Service and Terms and Conditions, which are published
@@ -46,10 +47,10 @@ export default function TermsPage() {
         subscription agreement entered into at signup. Those documents — NOT THESE TERMS — apply to the AcadTracker product.
       </p>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         Intellectual property
       </h2>
-      <p className="text-[1rem] text-ink2">
+      <p className="text-[1.08rem] text-ink2">
         The content, branding, text, graphics, and design of this website
         belong to Enrilo Technologies or its licensors and are protected by
         applicable laws. You may not copy, reproduce, republish, or create
@@ -57,20 +58,20 @@ export default function TermsPage() {
         permission, except for personal, non-commercial reference. */}
       </p>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         Links to other websites
       </h2>
-      <p className="text-[1rem] text-ink2">
+      <p className="text-[1.08rem] text-ink2">
         This site may link to other websites, including the AcadTracker
         website. Those sites have their own terms and conditions and privacy
         policies, and we encourage you to review them if you have any
         questions about how they operate.
       </p>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         Disclaimers
       </h2>
-      <p className="text-[1rem] text-ink2">
+      <p className="text-[1.08rem] text-ink2">
         This website and its content are provided &quot;as is&quot; and &quot;as
         available&quot; without warranties of any kind, whether express or
         implied, including warranties of merchantability, fitness for a
@@ -79,10 +80,10 @@ export default function TermsPage() {
         or that the information on it is complete or current.
       </p>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         Limitation of liability
       </h2>
-      <p className="text-[1rem] text-ink2">
+      <p className="text-[1.08rem] text-ink2">
         To the maximum extent permitted by law, Enrilo Technologies will not be
         liable for any indirect, incidental, special, consequential, or
         punitive damages, or for any loss of profits, revenue, data, or
@@ -90,30 +91,30 @@ export default function TermsPage() {
         use) this website.
       </p>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         Governing law
       </h2>
-      <p className="text-[1rem] text-ink2">
+      <p className="text-[1.08rem] text-ink2">
         These Terms are governed by the laws of India, without regard to its
         conflict-of-laws rules. The courts located in India will have exclusive
         jurisdiction over any dispute arising from these Terms or your use of
         this website.
       </p>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         Changes to these terms
       </h2>
-      <p className="text-[1rem] text-ink2">
+      <p className="text-[1.08rem] text-ink2">
         We may update these Terms from time to time. When we make material
         changes, we will update the &ldquo;Last Updated On&rdquo; date above.
         Continued use of the site after changes take effect means you accept
         the updated Terms.
       </p>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         Contact
       </h2>
-      <p className="text-[1rem] text-ink2">
+      <p className="text-[1.08rem] text-ink2">
         Questions about these Terms:{" "}
         <a
           href="mailto:contactus@enrilotechnologies.com"
@@ -122,6 +123,7 @@ export default function TermsPage() {
           contactus@enrilotechnologies.com
         </a>
       </p>
+      </div>
     </div>
   );
 }

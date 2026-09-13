@@ -11,19 +11,20 @@
 
   body {
     @apply bg-paper text-graphite font-sans antialiased;
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 17px;
+    line-height: 1.7;
   }
 
   h1,
   h2,
   h3 {
-    @apply font-serif font-semibold;
-    line-height: 1.15;
+    @apply font-serif font-bold;
+    line-height: 1.18;
+    letter-spacing: -0.01em;
   }
 
   p {
-    max-width: 62ch;
+    max-width: 66ch;
   }
 
   :focus-visible {

@@ -11,7 +11,7 @@ export default function HeroSchematic() {
       <path d="M70 150 V 260 H 210" fill="none" stroke="rgba(237,239,234,0.35)" strokeWidth="1.5" />
 
       {/* root node: Enrilo Technologies */}
-      <rect x="10" y="30" width="120" height="60" fill="none" stroke="#B8863B" strokeWidth="1.5" />
+      <rect x="10" y="30" width="120" height="60" rx="10" fill="none" stroke="#B8863B" strokeWidth="1.5" />
       <text x="70" y="55" textAnchor="middle" fontFamily="IBM Plex Serif, serif" fontSize="13" fill="#EDEFEA">
         Enrilo
       </text>
@@ -20,7 +20,7 @@ export default function HeroSchematic() {
       </text>
 
       {/* product node: AcadTracker */}
-      <rect x="210" y="120" width="150" height="60" fill="none" stroke="rgba(237,239,234,0.55)" strokeWidth="1.5" />
+      <rect x="210" y="120" width="150" height="60" rx="10" fill="none" stroke="rgba(237,239,234,0.55)" strokeWidth="1.5" />
       <text x="285" y="147" textAnchor="middle" fontFamily="IBM Plex Sans, sans-serif" fontSize="13" fill="#EDEFEA">
         AcadTracker
       </text>
@@ -29,7 +29,7 @@ export default function HeroSchematic() {
       </text>
 
       {/* custom work node */}
-      <rect x="210" y="230" width="150" height="60" fill="none" stroke="rgba(237,239,234,0.55)" strokeWidth="1.5" />
+      <rect x="210" y="230" width="150" height="60" rx="10" fill="none" stroke="rgba(237,239,234,0.55)" strokeWidth="1.5" />
       <text x="285" y="257" textAnchor="middle" fontFamily="IBM Plex Sans, sans-serif" fontSize="13" fill="#EDEFEA">
         Custom builds
       </text>

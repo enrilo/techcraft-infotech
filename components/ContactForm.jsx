@@ -12,6 +12,7 @@ const FORMSPREE_FORM_ID = "mredebve";
 const fieldSx = {
   marginBottom: "1.25rem",
   "& .MuiFormLabel-asterisk": { color: "#dc2626" },
+  "& .MuiOutlinedInput-root": { borderRadius: "12px" },
 };
 
 export default function ContactForm() {
@@ -42,7 +43,7 @@ export default function ContactForm() {
       ...base,
       minHeight: "56px",
       borderColor: s.isFocused ? "#2563EB" : "rgba(30,41,59,0.15)",
-      borderRadius: 0,
+      borderRadius: 12,
       boxShadow: "none",
       backgroundColor: "transparent",
       cursor: "pointer",
@@ -54,9 +55,9 @@ export default function ContactForm() {
 
   if (state.succeeded) {
     return (
-      <div className="border border-ink/15 p-6 sm:p-8">
-        <h3 className="font-serif text-[1.15rem] text-ink">Thank you</h3>
-        <p className="mt-2 max-w-[52ch] text-[1.02rem] text-ink2">
+      <div>
+        <h3 className="font-serif text-[1.22rem] text-ink">Thank you</h3>
+        <p className="mt-2 max-w-[52ch] text-[1.1rem] text-ink2">
           We&apos;ve received your message. The Enrilo Technologies team will get
           back to you soon.
         </p>
@@ -87,7 +88,7 @@ export default function ContactForm() {
               setShowCodeError(false);
             }} menuPosition="fixed" menuPortalTarget={menuPortalTarget} styles={selectStyles} />
           {showCodeError && (
-            <p className="mt-1 text-[0.86rem] text-red-600">
+            <p className="mt-1 text-[0.92rem] text-red-600">
               Please select a country code.
             </p>
           )}
@@ -102,12 +103,12 @@ export default function ContactForm() {
       <TextField name="message" id="message" label="Please Enter Your Message Here" variant="outlined" fullWidth required multiline minRows={5} sx={fieldSx} />
 
       {state.errors?.getFormErrors?.().length > 0 && (
-        <p className="mb-4 text-[1.02rem] text-red-600">
+        <p className="mb-4 text-[1.1rem] text-red-600">
           Something went wrong. Please try again.
         </p>
       )}
 
-      <button type="submit" disabled={state.submitting} className="bg-brass px-5 py-3 text-[1.01rem] font-medium text-ink hover:bg-[#c79549] disabled:opacity-50">
+      <button type="submit" disabled={state.submitting} className="rounded-full bg-brass px-6 py-3.5 text-[1.09rem] font-medium text-ink shadow-lg shadow-brass/20 transition-colors hover:bg-[#c79549] disabled:opacity-50">
         {state.submitting ? "Sending…" : "Send message"}
       </button>
     </form>

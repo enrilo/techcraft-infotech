@@ -7,21 +7,22 @@ export const metadata = {
 
 export default function PrivacyPage() {
   return (
-    <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-24">
-      <h1 className="mb-2 text-[2rem]">Privacy Policy</h1>
+    <div className="mx-auto max-w-4xl px-5 py-16 sm:px-8 sm:py-24">
+      <h1 className="mb-2 text-[clamp(1.9rem,3.4vw,2.4rem)]">Privacy Policy</h1>
       <p className="mb-10 text-md font-semibold text-slate">
         Effective From: 8 September, 2026.
         <br />
         Last Updated On: 8 September, 2026.
       </p>
 
-      <p className="text-[1rem] text-ink2">
+      <div className="rounded-3xl border border-ink/10 bg-white p-6 shadow-sm sm:p-10">
+      <p className="text-[1.08rem] text-ink2">
         This Privacy Policy explains how Enrilo Technologies (&quot;we&quot;,
         &quot;us&quot;, &quot;our&quot;) collects, uses, shares, and protects
         information when you visit this website, enrilotechnologies.com. It also
         describes the choices you have and how to exercise your rights.
       </p>
-      <p className="mt-4 text-[1rem] text-ink2">
+      <p className="mt-4 text-[1.08rem] text-ink2">
         Our product, AcadTracker, has its own Privacy Policy published on the
         AcadTracker website. That policy — not this one — governs the data
         processed within the AcadTracker application, including the lead,
@@ -29,10 +30,10 @@ export default function PrivacyPage() {
         the product.
       </p>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         Information we collect
       </h2>
-      <ul className="list-disc space-y-2 pl-5 text-[1rem] text-ink2">
+      <ul className="list-disc space-y-2 pl-5 text-[1.08rem] text-ink2">
         <li>
           <strong>Information you give us.</strong> Your name, email address,
           company, and the contents of any message when you contact us, request
@@ -50,10 +51,10 @@ export default function PrivacyPage() {
         </li>
       </ul>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         How we use information
       </h2>
-      <ul className="list-disc space-y-2 pl-5 text-[1rem] text-ink2">
+      <ul className="list-disc space-y-2 pl-5 text-[1.08rem] text-ink2">
         <li>To respond to enquiries and provide the information you request</li>
         <li>
           To understand site traffic and improve our content and services
@@ -69,10 +70,10 @@ export default function PrivacyPage() {
         <li>To comply with legal obligations and enforce our agreements</li>
       </ul>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         Legal bases for processing
       </h2>
-      <p className="text-[1rem] text-ink2">
+      <p className="text-[1.08rem] text-ink2">
         Where the GDPR or similar laws apply, we rely on: your{" "}
         <strong>consent</strong> (for analytics cookies and marketing
         messages); <strong>performance of a contract</strong> or steps taken at
@@ -83,10 +84,10 @@ export default function PrivacyPage() {
         requirements).
       </p>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         Cookies and analytics
       </h2>
-      <p className="text-[1rem] text-ink2">
+      <p className="text-[1.08rem] text-ink2">
         We use Google Analytics to understand how visitors use this site. When
         you first visit, a consent banner asks whether you accept analytics
         cookies. Until you accept, Google Analytics runs in a restricted mode
@@ -99,14 +100,14 @@ export default function PrivacyPage() {
         cookies.
       </p>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         How we share information
       </h2>
-      <p className="text-[1rem] text-ink2">
+      <p className="text-[1.08rem] text-ink2">
         We do not sell personal data and we do not share it for cross-context
         behavioural advertising. We share data only with:
       </p>
-      <ul className="mt-3 list-disc space-y-2 pl-5 text-[1rem] text-ink2">
+      <ul className="mt-3 list-disc space-y-2 pl-5 text-[1.08rem] text-ink2">
         <li>
           <strong>Service providers</strong> that help us run this site — such
           as hosting, infrastructure, analytics, and email delivery providers —
@@ -124,20 +125,20 @@ export default function PrivacyPage() {
         </li>
       </ul>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         International transfers
       </h2>
-      <p className="text-[1rem] text-ink2">
+      <p className="text-[1.08rem] text-ink2">
         We are based in India, and our service providers may process data in
         other countries. Where personal data is transferred across borders, we
         rely on appropriate safeguards such as the European Commission&rsquo;s
         Standard Contractual Clauses or an adequacy decision.
       </p>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         Data retention
       </h2>
-      <p className="text-[1rem] text-ink2">
+      <p className="text-[1.08rem] text-ink2">
         We keep personal data only as long as needed for the purposes above.
         Enquiry and contact records are kept for up to 24 months after our last
         interaction, and analytics data is retained according to the retention
@@ -145,20 +146,20 @@ export default function PrivacyPage() {
         keep it longer.
       </p>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         Security
       </h2>
-      <p className="text-[1rem] text-ink2">
+      <p className="text-[1.08rem] text-ink2">
         We use technical and organisational measures appropriate to the risk,
         including encryption in transit, access controls, and least-privilege
         practices. No method of transmission or storage is completely secure,
         so we cannot guarantee absolute security.
       </p>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         Your rights
       </h2>
-      <p className="text-[1rem] text-ink2">
+      <p className="text-[1.08rem] text-ink2">
         Depending on where you live, you may have the right to access,
         correct, delete, or port your personal data, to object to or restrict
         certain processing, and to withdraw consent at any time. To exercise
@@ -174,28 +175,28 @@ export default function PrivacyPage() {
         authority.
       </p>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         Children
       </h2>
-      <p className="text-[1rem] text-ink2">
+      <p className="text-[1.08rem] text-ink2">
         This website is intended for a business audience and is not directed to
         children. We do not knowingly collect personal data from children
         through this site.
       </p>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         Changes to this policy
       </h2>
-      <p className="text-[1rem] text-ink2">
+      <p className="text-[1.08rem] text-ink2">
         We may update this policy from time to time. When we make material
         changes, we will update the &ldquo;Last Updated On&rdquo; date above
         and, where appropriate, notify you by a notice on the site.
       </p>
 
-      <h2 className="mb-3 mt-10 font-sans text-[1.3rem] font-semibold">
+      <h2 className="mb-3 mt-10 font-sans text-[1.4rem] font-semibold">
         Contact
       </h2>
-      <p className="text-[1rem] text-ink2">
+      <p className="text-[1.08rem] text-ink2">
         Questions about this policy or your data:{" "}
         <a
           href="mailto:contactus@enrilotechnologies.com"
@@ -204,6 +205,7 @@ export default function PrivacyPage() {
           contactus@enrilotechnologies.com
         </a>
       </p>
+      </div>
     </div>
   );
 }
