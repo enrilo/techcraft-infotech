@@ -29,7 +29,7 @@ export default function Home() {
         />
         <div className="relative mx-auto grid max-w-shell grid-cols-1 items-center gap-10 px-5 py-12 sm:px-8 sm:py-14 md:grid-cols-[1.1fr_0.9fr] md:gap-14 md:py-20">
           <div>
-            <p className="mb-4 text-[0.82rem] tracking-wide text-paper/60">
+            <p className="mb-4 text-[1rem] tracking-wide text-paper/60">
               Software company · est. in India
             </p>
             <h1 className="max-w-[16ch] text-[clamp(2.1rem,4.2vw,3.3rem)]">
@@ -43,17 +43,17 @@ export default function Home() {
               started — not where we stop.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
-              <a href="#services" className="inline-flex items-center gap-2 border border-transparent bg-brass px-5 py-3 text-[0.95rem] font-medium text-ink no-underline hover:bg-[#c79549]">
+              <a href="#services" className="inline-flex items-center gap-2 border border-transparent bg-brass px-5 py-3 text-[1.01rem] font-medium text-ink no-underline hover:bg-[#c79549]">
                 What we do
               </a>
-              <a href="#contact" className="inline-flex items-center gap-2 border border-paper/20 px-5 py-3 text-[0.95rem] font-medium text-paper no-underline hover:border-paper">
+              <a href="#contact" className="inline-flex items-center gap-2 border border-paper/20 px-5 py-3 text-[1.01rem] font-medium text-paper no-underline hover:border-paper">
                 Get in touch
               </a>
             </div>
             <dl className="mt-10 grid max-w-[46ch] grid-cols-2 gap-x-6 gap-y-5 border-t border-paper/15 pt-6 sm:grid-cols-3">
               <div>
                 <dt className="font-serif text-[1.15rem] text-paper">2026</dt>
-                <dd className="mt-0.5 text-[0.82rem] text-paper/60">
+                <dd className="mt-0.5 text-[1rem] text-paper/60">
                   Year founded
                 </dd>
               </div>
@@ -61,7 +61,7 @@ export default function Home() {
                 <dt className="font-serif text-[1.15rem] text-paper">
                   Product + custom
                 </dt>
-                <dd className="mt-0.5 text-[0.82rem] text-paper/60">
+                <dd className="mt-0.5 text-[1rem] text-paper/60">
                   Two sides of one team
                 </dd>
               </div>
@@ -69,7 +69,7 @@ export default function Home() {
                 <dt className="font-serif text-[1.15rem] text-paper">
                   Web &amp; mobile
                 </dt>
-                <dd className="mt-0.5 text-[0.82rem] text-paper/60">
+                <dd className="mt-0.5 text-[1rem] text-paper/60">
                   End to end, in-house
                 </dd>
               </div>
@@ -83,7 +83,7 @@ export default function Home() {
       <section className="border-b border-ink/15" id="about">
         <div className="mx-auto max-w-shell px-5 py-16 sm:px-8 sm:py-20">
           <div className="mb-12 grid grid-cols-1 gap-3 md:grid-cols-[200px_1fr] md:gap-10">
-            <span className="h-fit border-l-2 border-brass pl-3.5 font-serif text-[0.95rem] text-slatesoft">
+            <span className="h-fit border-l-2 border-brass pl-3.5 font-serif text-[1.01rem] text-slatesoft">
               About Us
             </span>
             <h2 className="max-w-[24ch] text-[clamp(1.5rem,2.6vw,2.1rem)]">
@@ -94,13 +94,13 @@ export default function Home() {
           <div className="grid grid-cols-1 gap-10 md:grid-cols-[200px_1fr]">
             <dl className="grid gap-5">
               <div>
-                <dt className="text-[0.78rem] text-slatesoft">What we do</dt>
+                <dt className="text-[0.84rem] text-slatesoft">What we do</dt>
                 <dd className="mt-0.5 font-serif text-[1rem] text-ink">
                   Products &amp; custom software
                 </dd>
               </div>
               <div>
-                <dt className="text-[0.78rem] text-slatesoft">
+                <dt className="text-[0.84rem] text-slatesoft">
                   Our product
                 </dt>
                 <dd className="mt-0.5 font-serif text-[1rem] text-ink">
@@ -108,7 +108,7 @@ export default function Home() {
                 </dd>
               </div>
               <div>
-                <dt className="text-[0.78rem] text-slatesoft">Model</dt>
+                <dt className="text-[0.84rem] text-slatesoft">Model</dt>
                 <dd className="mt-0.5 font-serif text-[1rem] text-ink">
                   Self-funded, hands-on
                 </dd>
@@ -131,26 +131,26 @@ export default function Home() {
               </p>
               <div className="mt-7 grid grid-cols-1 gap-4 sm:grid-cols-3">
                 <div className="border-t border-ink/15 pt-3.5">
-                  <dt className="font-serif text-[0.98rem]">
+                  <dt className="font-serif text-[1.04rem]">
                     Built around your work
                   </dt>
-                  <dd className="mt-1.5 text-[0.93rem] text-slate">
+                  <dd className="mt-1.5 text-[0.99rem] text-slate">
                     Software shaped to your process, not a template you
                     have to adapt to.
                   </dd>
                 </div>
                 <div className="border-t border-ink/15 pt-3.5">
-                  <dt className="font-serif text-[0.98rem]">
+                  <dt className="font-serif text-[1.04rem]">
                     One team, start to finish
                   </dt>
-                  <dd className="mt-1.5 text-[0.93rem] text-slate">
+                  <dd className="mt-1.5 text-[0.99rem] text-slate">
                     The people who design it are the people who build and
                     support it.
                   </dd>
                 </div>
                 <div className="border-t border-ink/15 pt-3.5">
-                  <dt className="font-serif text-[0.98rem]">Built to last</dt>
-                  <dd className="mt-1.5 text-[0.93rem] text-slate">
+                  <dt className="font-serif text-[1.04rem]">Built to last</dt>
+                  <dd className="mt-1.5 text-[0.99rem] text-slate">
                     We think in years of upkeep, not a quick exit.
                   </dd>
                 </div>
@@ -164,7 +164,7 @@ export default function Home() {
       <section className="border-b border-ink/15" id="services">
         <div className="mx-auto max-w-shell px-5 py-16 sm:px-8 sm:py-20">
           <div className="mb-12 grid grid-cols-1 gap-3 md:grid-cols-[200px_1fr] md:gap-10">
-            <span className="h-fit border-l-2 border-brass pl-3.5 font-serif text-[0.95rem] text-slatesoft">
+            <span className="h-fit border-l-2 border-brass pl-3.5 font-serif text-[1.01rem] text-slatesoft">
               What we do
             </span>
             <h2 className="max-w-[24ch] text-[clamp(1.5rem,2.6vw,2.1rem)]">
@@ -179,7 +179,7 @@ export default function Home() {
                 <h3 className="font-serif text-[1.15rem] text-ink">
                   Software products
                 </h3>
-                <p className="mt-2.5 text-[0.96rem] text-ink2">
+                <p className="mt-2.5 text-[1.02rem] text-ink2">
                   Focused products we build, run, and keep improving.
                   AcadTracker is the first — a CRM for study abroad and
                   domestic education consultancies, covering everything
@@ -187,7 +187,7 @@ export default function Home() {
                 </p>
                 <a
                   href="#product"
-                  className="mt-4 inline-flex items-center gap-2 text-[0.92rem] font-medium text-brassdark no-underline hover:underline"
+                  className="mt-4 inline-flex items-center gap-2 text-[1.04rem] font-medium text-brassdark no-underline hover:underline"
                 >
                   More about AcadTracker →
                 </a>
@@ -197,7 +197,7 @@ export default function Home() {
                 <h3 className="font-serif text-[1.15rem] text-ink">
                   Custom web &amp; mobile apps
                 </h3>
-                <p className="mt-2.5 text-[0.96rem] text-ink2">
+                <p className="mt-2.5 text-[1.02rem] text-ink2">
                   When off-the-shelf tools do not fit, we design and build
                   the application you need — customer portals, internal
                   tools, dashboards, booking and workflow systems — as
@@ -205,7 +205,7 @@ export default function Home() {
                 </p>
                 <a
                   href="#contact"
-                  className="mt-4 inline-flex items-center gap-2 text-[0.92rem] font-medium text-brassdark no-underline hover:underline"
+                  className="mt-4 inline-flex items-center gap-2 text-[1.04rem] font-medium text-brassdark no-underline hover:underline"
                 >
                   Tell us what you need →
                 </a>
@@ -214,7 +214,7 @@ export default function Home() {
                 <h4 className="font-serif text-[1rem] text-ink">
                   Web applications
                 </h4>
-                <p className="mt-1.5 text-[0.92rem] text-slate">
+                <p className="mt-1.5 text-[1.04rem] text-slate">
                   Dashboards, portals, and internal tools built to load
                   fast and scale with your team.
                 </p>
@@ -223,7 +223,7 @@ export default function Home() {
                 <h4 className="font-serif text-[1rem] text-ink">
                   Mobile applications
                 </h4>
-                <p className="mt-1.5 text-[0.92rem] text-slate">
+                <p className="mt-1.5 text-[1.04rem] text-slate">
                   Android and iOS apps for field teams, customers, and
                   on-the-go operations.
                 </p>
@@ -232,7 +232,7 @@ export default function Home() {
                 <h4 className="font-serif text-[1rem] text-ink">
                   APIs &amp; integrations
                 </h4>
-                <p className="mt-1.5 text-[0.92rem] text-slate">
+                <p className="mt-1.5 text-[1.04rem] text-slate">
                   Connect the systems you already use so data stops living
                   in separate silos.
                 </p>
@@ -241,7 +241,7 @@ export default function Home() {
                 <h4 className="font-serif text-[1rem] text-ink">
                   Ongoing support
                 </h4>
-                <p className="mt-1.5 text-[0.92rem] text-slate">
+                <p className="mt-1.5 text-[1.04rem] text-slate">
                   Maintenance, improvements, and a direct line to the
                   people who built it.
                 </p>
@@ -255,7 +255,7 @@ export default function Home() {
       <section className="border-b border-ink/15" id="process">
         <div className="mx-auto max-w-shell px-5 py-16 sm:px-8 sm:py-20">
           <div className="mb-12 grid grid-cols-1 gap-3 md:grid-cols-[200px_1fr] md:gap-10">
-            <span className="h-fit border-l-2 border-brass pl-3.5 font-serif text-[0.95rem] text-slatesoft">
+            <span className="h-fit border-l-2 border-brass pl-3.5 font-serif text-[1.01rem] text-slatesoft">
               How we work
             </span>
             <h2 className="max-w-[22ch] text-[clamp(1.5rem,2.6vw,2.1rem)]">
@@ -295,7 +295,7 @@ export default function Home() {
                     <h3 className="font-serif text-[1.05rem] text-ink">
                       {s.t}
                     </h3>
-                    <p className="mt-1.5 max-w-[62ch] text-[0.95rem] text-ink2">
+                    <p className="mt-1.5 max-w-[62ch] text-[1.01rem] text-ink2">
                       {s.d}
                     </p>
                   </div>
@@ -310,7 +310,7 @@ export default function Home() {
       <section className="border-b border-ink/15" id="product">
         <div className="mx-auto max-w-shell px-5 py-16 sm:px-8 sm:py-20">
           <div className="mb-12 grid grid-cols-1 gap-3 md:grid-cols-[200px_1fr] md:gap-10">
-            <span className="h-fit border-l-2 border-brass pl-3.5 font-serif text-[0.95rem] text-slatesoft">
+            <span className="h-fit border-l-2 border-brass pl-3.5 font-serif text-[1.01rem] text-slatesoft">
               Our product
             </span>
             <h2 className="max-w-[22ch] text-[clamp(1.5rem,2.6vw,2.1rem)]">
@@ -333,7 +333,7 @@ export default function Home() {
                   <span className="text-[1.4rem] font-serif">
                     AcadTracker
                   </span>
-                  <span className="border border-brass px-2.5 py-1 text-[0.78rem] text-brassdark">
+                  <span className="border border-brass px-2.5 py-1 text-[0.84rem] text-brassdark">
                     Live
                   </span>
                 </div>
@@ -344,7 +344,7 @@ export default function Home() {
                   applications, documents, and payments across every
                   branch.
                 </p>
-                <p className="mb-7 text-[0.92rem] text-slate">
+                <p className="mb-7 text-[1.04rem] text-slate">
                   Learn more at{" "}
                   <a href="https://acadtracker.com" target="_blank" rel="noopener noreferrer" className="font-medium text-brassdark underline underline-offset-2">
                     acadtracker.com
@@ -352,10 +352,10 @@ export default function Home() {
                 </p>
                 <div className="grid grid-cols-1 gap-7 sm:grid-cols-2">
                   <div>
-                    <h4 className="mb-2.5 text-[0.88rem] font-semibold font-sans text-slatesoft">
+                    <h4 className="mb-2.5 text-[1rem] font-semibold font-sans text-slatesoft">
                       What it handles
                     </h4>
-                    <ul className="m-0 list-disc space-y-2 pl-5 text-[0.95rem] text-ink2">
+                    <ul className="m-0 list-disc space-y-2 pl-5 text-[1.01rem] text-ink2">
                       <li>Lead and applicant tracking, end to end</li>
                       <li>Student records and document management</li>
                       <li>College and university application pipelines</li>
@@ -364,10 +364,10 @@ export default function Home() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="mb-2.5 text-[0.88rem] font-semibold font-sans text-slatesoft">
+                    <h4 className="mb-2.5 text-[1rem] font-semibold font-sans text-slatesoft">
                       Built for
                     </h4>
-                    <ul className="m-0 list-disc space-y-2 pl-5 text-[0.95rem] text-ink2">
+                    <ul className="m-0 list-disc space-y-2 pl-5 text-[1.01rem] text-ink2">
                       <li>Study abroad and overseas education agencies</li>
                       <li>Domestic & international college-placement consultancies</li>
                       <li>Multi-branch consultancy networks</li>
@@ -376,7 +376,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="mt-8 flex flex-wrap gap-3.5">
-                  <a href="#contact" className="inline-flex items-center gap-2 bg-brass px-5 py-3 text-[0.95rem] font-medium text-ink no-underline hover:bg-[#c79549]">
+                  <a href="#contact" className="inline-flex items-center gap-2 bg-brass px-5 py-3 text-[1.01rem] font-medium text-ink no-underline hover:bg-[#c79549]">
                     Request a walkthrough
                   </a>
                 </div>
@@ -391,7 +391,7 @@ export default function Home() {
       <section id="contact">
         <div className="mx-auto max-w-shell px-5 py-16 sm:px-8 sm:py-20">
           <div className="mb-12 grid grid-cols-1 gap-3 md:grid-cols-[200px_1fr] md:gap-10">
-            <span className="h-fit border-l-2 border-brass pl-3.5 font-serif text-[0.95rem] text-slatesoft">
+            <span className="h-fit border-l-2 border-brass pl-3.5 font-serif text-[1.01rem] text-slatesoft">
               Contact Us
             </span>
             <h2 className="max-w-[22ch] text-[clamp(1.5rem,2.6vw,2.1rem)]">
@@ -403,10 +403,10 @@ export default function Home() {
             <ContactForm />
             <div className="border-t border-ink/15 pt-6 md:border-l md:border-t-0 md:pl-8 md:pt-0">
               <h4 className="mb-3 font-serif text-[1.05rem]">Direct</h4>
-              <p className="mb-1.5 text-[0.95rem] text-slate">
+              <p className="mb-1.5 text-[1.01rem] text-slate">
                 contactus@enrilotechnologies.com
               </p>
-              <p className="mb-1.5 text-[0.95rem] text-slate">
+              <p className="mb-1.5 text-[1.01rem] text-slate">
                 Mon–Fri, 10am–6pm IST
                 <br />
                 Sat, 10am-4pm IST
@@ -414,7 +414,7 @@ export default function Home() {
               <h4 className="mb-3 mt-6 font-serif text-[1.05rem]">
                 Based in
               </h4>
-              <p className="mb-1.5 text-[0.95rem] text-slate">India</p>
+              <p className="mb-1.5 text-[1.01rem] text-slate">India</p>
             </div>
           </div>
         </div>

@@ -24,7 +24,7 @@ export default function Header() {
         <ul className="hidden gap-8 list-none m-0 p-0 md:flex">
           {links.map((l) => (
             <li key={l.href}>
-              <a href={l.href} className="border-b border-transparent pb-0.5 text-[0.94rem] text-slate no-underline hover:border-brass hover:text-ink">
+              <a href={l.href} className="border-b border-transparent pb-0.5 text-[1rem] text-slate no-underline hover:border-brass hover:text-ink">
                 {l.label}
               </a>
             </li>
@@ -56,7 +56,7 @@ export default function Header() {
           <ul className="m-0 flex list-none flex-col p-0">
             {links.map((l) => (
               <li key={l.href} className="border-b border-ink/10 last:border-b-0">
-                <a href={l.href} onClick={() => setOpen(false)} className="block px-5 py-4 text-[0.98rem] text-slate no-underline hover:bg-paper2 hover:text-ink">
+                <a href={l.href} onClick={() => setOpen(false)} className="block px-5 py-4 text-[1.04rem] text-slate no-underline hover:bg-paper2 hover:text-ink">
                   {l.label}
                 </a>
               </li>

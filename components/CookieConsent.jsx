@@ -71,7 +71,7 @@ export default function CookieConsent() {
       aria-label="Cookie consent"
       className="fixed inset-x-0 bottom-0 z-50 border-t border-brass/40 bg-ink text-paper"
     >
-      <div className="mx-auto flex max-w-shell flex-col gap-4 px-5 py-5 text-[0.9rem] sm:px-8 md:flex-row md:items-center md:justify-between">
+      <div className="mx-auto flex max-w-shell flex-col gap-4 px-5 py-5 text-[1.02rem] sm:px-8 md:flex-row md:items-center md:justify-between">
         <p className="m-0 max-w-none opacity-90">
           We use cookies to analyse site traffic and improve your experience.
           See our{" "}

@@ -4,7 +4,7 @@ import CookiePreferencesButton from "@/components/CookiePreferencesButton";
 export default function Footer() {
   return (
     <footer className="bg-ink text-paper">
-      <div className="mx-auto flex max-w-shell flex-wrap items-center justify-between gap-4 px-5 py-8 text-[0.85rem] sm:px-8">
+      <div className="mx-auto flex max-w-shell flex-wrap items-center justify-between gap-4 px-5 py-8 text-[0.91rem] sm:px-8">
         <div className="flex items-center gap-3 opacity-75">
           <img src="/enrilo-icon-transparent.svg" alt="Enrilo Technologies" className="h-6 w-6 object-contain" />
           <span>
